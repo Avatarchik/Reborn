@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeRP-Git.CSharp.Plugins", "LifeRP-Git.CSharp.Plugins.csproj", "{A216875E-7179-80EE-AE69-839632E1CDAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeRP-Git.CSharp", "LifeRP-Git.CSharp.csproj", "{C779B3E5-26D0-529D-4C68-CFDF62D3254F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeRP-Git.CSharp.Editor", "LifeRP-Git.CSharp.Editor.csproj", "{5D38F420-552F-62B0-6A2F-E07E746BBA31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A216875E-7179-80EE-AE69-839632E1CDAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A216875E-7179-80EE-AE69-839632E1CDAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A216875E-7179-80EE-AE69-839632E1CDAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A216875E-7179-80EE-AE69-839632E1CDAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C779B3E5-26D0-529D-4C68-CFDF62D3254F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C779B3E5-26D0-529D-4C68-CFDF62D3254F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C779B3E5-26D0-529D-4C68-CFDF62D3254F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C779B3E5-26D0-529D-4C68-CFDF62D3254F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D38F420-552F-62B0-6A2F-E07E746BBA31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D38F420-552F-62B0-6A2F-E07E746BBA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D38F420-552F-62B0-6A2F-E07E746BBA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D38F420-552F-62B0-6A2F-E07E746BBA31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
