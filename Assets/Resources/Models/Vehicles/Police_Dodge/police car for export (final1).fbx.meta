@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 4d8d67e8ab6823d49afce071c7f2bea2
+timeCreated: 1476750493
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: back cell grill
+    100002: bonnet
+    100004: bull bars
+    100006: Camera
+    100008: car base
+    100010: frame
+    100012: front bumper
+    100014: front door left
+    100016: front door right
+    100018: front side panel
+    100020: front window
+    100022: interior cell
+    100024: lights
+    100026: //RootNode
+    100028: rear bumper
+    100030: rear door left
+    100032: rear door right
+    100034: rear side panels
+    100036: rear trunk door
+    100038: rear window
+    100040: roof
+    100042: steering wheel
+    100044: wheel front left
+    100046: wheel front right
+    100048: wheels back
+    400000: back cell grill
+    400002: bonnet
+    400004: bull bars
+    400006: Camera
+    400008: car base
+    400010: frame
+    400012: front bumper
+    400014: front door left
+    400016: front door right
+    400018: front side panel
+    400020: front window
+    400022: interior cell
+    400024: lights
+    400026: //RootNode
+    400028: rear bumper
+    400030: rear door left
+    400032: rear door right
+    400034: rear side panels
+    400036: rear trunk door
+    400038: rear window
+    400040: roof
+    400042: steering wheel
+    400044: wheel front left
+    400046: wheel front right
+    400048: wheels back
+    2300000: back cell grill
+    2300002: bonnet
+    2300004: bull bars
+    2300006: car base
+    2300008: frame
+    2300010: front bumper
+    2300012: front door left
+    2300014: front door right
+    2300016: front side panel
+    2300018: front window
+    2300020: interior cell
+    2300022: lights
+    2300024: rear bumper
+    2300026: rear door left
+    2300028: rear door right
+    2300030: rear side panels
+    2300032: rear trunk door
+    2300034: rear window
+    2300036: roof
+    2300038: steering wheel
+    2300040: wheel front left
+    2300042: wheel front right
+    2300044: wheels back
+    3300000: back cell grill
+    3300002: bonnet
+    3300004: bull bars
+    3300006: car base
+    3300008: frame
+    3300010: front bumper
+    3300012: front door left
+    3300014: front door right
+    3300016: front side panel
+    3300018: front window
+    3300020: interior cell
+    3300022: lights
+    3300024: rear bumper
+    3300026: rear door left
+    3300028: rear door right
+    3300030: rear side panels
+    3300032: rear trunk door
+    3300034: rear window
+    3300036: roof
+    3300038: steering wheel
+    3300040: wheel front left
+    3300042: wheel front right
+    3300044: wheels back
+    4300000: wheel front right
+    4300002: wheel front left
+    4300004: rear door left
+    4300006: front door left
+    4300008: wheels back
+    4300010: back cell grill
+    4300012: steering wheel
+    4300014: lights
+    4300016: bull bars
+    4300018: rear bumper
+    4300020: rear trunk door
+    4300022: rear side panels
+    4300024: roof
+    4300026: rear window
+    4300028: front window
+    4300030: rear door right
+    4300032: front door right
+    4300034: front side panel
+    4300036: bonnet
+    4300038: front bumper
+    4300040: frame
+    4300042: interior cell
+    4300044: car base
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

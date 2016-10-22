@@ -17,22 +17,14 @@ public class ATM : MonoBehaviour {
     public InputField Withdraw;
     public InputField Deposit;
 
-    public GameObject UI;
+    private GameObject PlayerTemp;
 
-    public GameObject PlayerTemp;
-
-    private bool UIOpen = false;
     private int UploadNew;
 
     private string GetMoneyURL = "http://rpgame.pe.hu/receiveMoneyAmount.php";
     private string MoneyURL = "http://rpgame.pe.hu/WithdrawMoney.php";
 
-    void Update()
-    {
-
-    }
-
-    public void RunScript () {
+    public void Start() {
         StartCoroutine(GetMoneyForPlayer());
         CardName = PlayerPrefs.GetString("playerName");
         NameTxt.text = CardName.ToString();
@@ -99,29 +91,6 @@ public class ATM : MonoBehaviour {
             MoneyCarry.text = NewMonCar.ToString();
         }        
     }
-    public void ShowUI()
-    {
-        if(UIOpen == false)
-        {
-            UI.SetActive(true);
-            PlayerTemp.GetComponent<bl_MouseLook>().enabled = false;
-            PlayerTemp.GetComponentInChildren<bl_MouseLook>().enabled = false;
-        }
-    }
-    public void CloseUI()
-    {
-        PlayerTemp.GetComponent<bl_MouseLook>().enabled = true;
-        PlayerTemp.GetComponentInChildren<bl_MouseLook>().enabled = true;
-        UI.SetActive(false);
-        bl_RoomController.ChangeResumeBool();
-
-        bl_CoopUtils.LockCursor(true);
-        bl_RoomController.NoResume = false;
-
-        Withdraw.text = "";
-        Deposit.text = "";
-    }
-
     public void WithDrawMonFromAcc(string playerName, string NewMoney)
     {
 
@@ -138,5 +107,19 @@ public class ATM : MonoBehaviour {
         form.AddField("NewMoney", NewMoney);
 
         WWW www = new WWW(MoneyURL, form);
+    }
+    public void CloseUI()
+    {
+        //PlayerTemp.GetComponent<bl_MouseLook>().enabled = true;
+        PlayerTemp.GetComponentInChildren<bl_MouseLook>().enabled = true;
+
+        bl_RoomController.ChangeResumeBool();
+
+        bl_CoopUtils.LockCursor(true);
+        bl_RoomController.NoResume = false;
+
+        //Withdraw.text = "";
+        //Deposit.text = "";
+        Destroy(this.gameObject);
     }
 }

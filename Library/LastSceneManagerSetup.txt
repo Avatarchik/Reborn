@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/MFP/Content/Scenes/Lobby.unity
+- path: Assets/MFP/Content/Scenes/MainWorld.unity
   isLoaded: 1
   isActive: 1

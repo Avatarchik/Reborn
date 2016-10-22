@@ -6,4 +6,5 @@ public enum PlayerState
     Crouch = 1,
     Jump = 2,
     SuperJump = 3,
+    handCuffed = 4,
 }
